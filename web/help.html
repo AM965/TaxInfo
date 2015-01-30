@@ -68,8 +68,10 @@
 		
                     <h4>Βιντεο βοήθειας</h4>
                    
-                    <iframe width="640" height="480" src="https://www.youtube.com/embed/2JUC-3C7sa8" frameborder="0" allowfullscreen></iframe>
-                   
+                    
+                    
+                    <h6><a class="fancybox-media" href="https://www.youtube.com/embed/2JUC-3C7sa8">Youtube link</a></h6>
+                    
                     
 	</div>
 	</section>
@@ -105,5 +107,17 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    $(document).ready(function() {
+	$('.fancybox-media').fancybox({
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		}
+	});
+});
+</script>
+
 </body>
 </html>
