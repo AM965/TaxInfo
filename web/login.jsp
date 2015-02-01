@@ -93,7 +93,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <button class="btn btn-theme btn-medium margintop10 pull-left" type="submit">Submit message</button>
+                                                    <button class="btn btn-theme btn-medium margintop10 pull-left" type="submit">Log In</button>
                                                 </div>
 
                                             </div>
